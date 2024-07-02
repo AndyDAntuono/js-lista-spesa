@@ -21,3 +21,4 @@ for (let i = 0; i < ingredienti.length; i++) {
 }
 
 Consigli: Come posso ciclare su un array con il ciclo while?
+
