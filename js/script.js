@@ -32,7 +32,7 @@ let i = 0;
 
 while (i < ingredienti.length) {
     console.log(ingredienti[i]);
-    i++
+    
 
     // CREO UN NUOVO LIST ITEM
     const li = document.createElement("li");
@@ -42,5 +42,5 @@ while (i < ingredienti.length) {
 
     // APPENDO IL LIST ITEM ALL'INTERNO DELLA LISTA DELLA SPESA
     lista_spesa.append(li);
-
+    i++
 }
